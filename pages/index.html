@@ -1,82 +1,121 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr" id="topPage">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- <link rel="stylesheet" href="../css/style.css" type="text/css"> -->
-    <link rel="stylesheet" href="../css/generalstyle.css" type="text/css">
-    <title>WebDev</title>
-  </head>
-  <body>
-<!-- 
-<div class="navbar">
-  <a href="#topPage">Home</a>
-  <a href="#about">About Us</a>
-  <a href="#contact">Contact Us</a>
-  <a class="login" href="../pages/login.html">Login</a>
-</div>
- -->
-<div id="navbar">
-    <a href="#topPage" class="active">Home</a>
-    <a href="#about">About Us</a>
-    <a href="#contact">Contact Us</a>
-  <div id="navbar-right">
-    <a class="login" href="../pages/login.html">Login</a>
-  </div>
-</div>
-<center>
-<div style="margin-top:210px;padding:15px 15px 1500px;font-size:20px">
- 
-<div class="container" style="margin-top:50px;">
-  <div id="home" class="main">
-    <h1>HOME</h1>
-    <hr>
-    <h2>Ayoko ko na</h2>
+<html>
+<head>
+	<title>PSITS</title>
+	<link rel="ICON" href="../img/logo.png" type="image/ico" />
+	<link rel="stylesheet" type="text/css" href="../css/gen.css">
+</head>
+<body>
+<!-- TOP BAR (LINKS) -->
+	<div class="topbar">
+		<a href="#"><img src="../icon/rss.png" alt="icons" class="icons"></a>
+		<a href="#"><img src="../icon/twitch.png" alt="icons" class="icons"></a>
+		<a href="#"><img src="../icon/youtube.png" alt="icons" class="icons"></a>
+		<a href="#"><img src="../icon/twitter.png" alt="icons" class="icons"></a>
+		<a href="#"><img src="../icon/facebook.png" alt="icons" class="icons"></a>
+	</div>
+<!-- NAVIGATION BAR -->
+	<div class="navbar">
+	  <a href="#" class="active">Home</a>
+	  <a href="#">About Us</a>
+	  <a href="#">Contact Us</a>
+	  <a href="login.html" class="right">Login</a>
 
-    <p>May JAVA</p>
-    <p>May VB</p>
-    <p>May PHP</p>
-    <p>Ga wave pa samon ang chapter 3</p>
-  </div>
-</div>
+	  <div class="search-container">
+	    <form action="/action_page.php">
+	      <input type="text" placeholder="Search..">
+	    </form>
+	  </div>
 
-</div>
+	</div>
+<!-- CENTER LOGO -->
+	<div class="imgcontainer">
+		<img src="../img/logo final.png" alt="Logo" class="avatar unselectable" draggable="false">
+	</div>
+<!-- CONTENT WRAPPER -->
+	<div class="wrapper">
+<!-- SLIDESHOW -->
+		<div id="slideshow">
+		  <div class="slide-wrapper">
+		    <div class="slide"><p class="slide-number">[PHOTO HERE]</p></div>
+		    <div class="slide"><p class="slide-number">[PHOTO HERE]</p></div>
+		    <div class="slide"><p class="slide-number">[PHOTO HERE]</p></div>
+		    <div class="slide"><p class="slide-number">[PHOTO HERE]</p></div>
+		    <div class="slide"><p class="slide-number">[PHOTO HERE]</p></div>
+		  </div>
+		</div>
+<!-- MISSION VISION MANDATE -->
+		<div class="row">
+		  <div class="column">
+		    <div class="card">
+		      <h2>VISION</h2>
+		      <p>Some text</p>
+		      <p>Some text</p>
+		    </div>
+		  </div>
 
-<br><br><br>
-<div class="container" style="margin-top:50px;">
-  <div id="about" class="main">
-    <h1>ABOUT</h1>
-    <hr>
-    <h2>WE'RE DEAD</h2>
+		  <div class="column">
+		    <div class="card">
+		      <h2>MANDATE</h2>
+		      <p>Some text</p>
+		      <p>Some text</p>
+		    </div>
+		  </div>
+		  
+		  <div class="column">
+		    <div class="card">
+		      <h2>MISSION</h2>
+		      <p>Some text</p>
+		      <p>Some text</p>
+		    </div>
+		  </div>
+		</div>
 
-    <p>D</p>
-    <p>D E</p>
-    <p>D E A</p>
-    <p>D E A D</p>
-    <p>D E A D L</p>
-    <p>D E A D L I</p>
-    <p>D E A D L I N</p>
-    <p>D E A D L I N E</p>
-  </div>
-</div>
+<!-- LEARN MORE -->
+		<div class="learn-wrapper">
+			<div class="learnmore">
+				<button class="learn-button">Learn More</button>
+			</div>
+		</div>
+<!-- ANNOUNCEMENTS EVENTS -->
+		<div class="row">
+		  <div class="column">
+		    <div class="card">
+		      <h2>ANNOUCEMENT</h2>
+		      <p>Some text</p>
+		      <p>Some text</p>
+		    </div>
+		  </div>
 
-</center>
+		  <div class="column">
+		    <div class="card">
+		      <h2>EVENTS</h2>
+		      <p>Some text</p>
+		      <p>Some text</p>
+		    </div>
+		  </div>
+		</div>
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+	</div>
+
+
+<!-- FOOTER -->
+	<div class="footer">
+		<img src="../img/logo final.png" alt="Logo" class="footer-avatar unselectable" draggable="false">
+		<div class="content">
+		    <h2>Philippine Society in Information Technology Students</h2>
+		    <p>CHMSC - Binalbagan Campus</p>
+		    <p>© 2019 PSITS</p>
+	  	</div>
+	  	<div class="right">
+			<a href="#"><img src="../icon/rss.png" alt="icons" class="footer-icons"></a>
+			<a href="#"><img src="../icon/twitch.png" alt="icons" class="footer-icons"></a>
+			<a href="#"><img src="../icon/youtube.png" alt="icons" class="footer-icons"></a>
+			<a href="#"><img src="../icon/twitter.png" alt="icons" class="footer-icons"></a>
+			<a href="#"><img src="../icon/facebook.png" alt="icons" class="footer-icons"></a>
+		</div>
+	</div>
+	<div class="topbar" style="padding: 5px;"></div>
+
 </body>
-
-<script>
-// When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
-window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
-  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
-    document.getElementById("navbar").style.padding = "10px 10px";
-    document.getElementById("logo").style.fontSize = "25px";
-  } else {
-    document.getElementById("navbar").style.padding = "30px 10px";
-    document.getElementById("logo").style.fontSize = "25px";
-  }
-}
-</script>
-
 </html>
