@@ -1,0 +1,17 @@
+
+<!-- FOOTER -->
+	<div class="footer">
+		<img src="../img/logo final.png" alt="Logo" class="footer-avatar unselectable" draggable="false">
+		<div class="content">
+		    <h2>Philippine Society in Information Technology Students</h2>
+		    <p>CHMSC - Binalbagan Campus</p>
+		    <p>Copyright © 2019 PSITS-CHMSC Binalbagan. All Right Reserved</p>
+	  	</div>
+	  	<div class="right">
+			<a href="#"><img src="../icon/rss.png" alt="icons" class="footer-icons"></a>
+			<a href="#"><img src="../icon/twitch.png" alt="icons" class="footer-icons"></a>
+			<a href="#"><img src="../icon/youtube.png" alt="icons" class="footer-icons"></a>
+			<a href="#"><img src="../icon/twitter.png" alt="icons" class="footer-icons"></a>
+			<a href="#"><img src="../icon/facebook.png" alt="icons" class="footer-icons"></a>
+		</div>
+	</div>
