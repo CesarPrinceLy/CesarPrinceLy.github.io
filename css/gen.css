@@ -127,6 +127,7 @@ img.avatar {
 
 /*WRAPPER*/
 .wrapper{
+  border-radius: 30px;
   background-color: #fff;
   margin-top: -7%;
   width: 900px;
@@ -139,7 +140,7 @@ img.avatar {
 /*SLIDESHOW*/
 
 #slideshow {
-
+  border-radius: 20px;
   overflow: hidden;
   height: 510px;
   width: 880px;
@@ -229,16 +230,18 @@ img.avatar {
 }
 
 .card {
+  border-radius: 10px;
   height: 400px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1);
   padding: 16px;
   text-align: center;
   background-color: yellowgreen;
 }
 
 .card2 {
+  border-radius: 10px;
   height: 400px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1);
   padding: 16px;
   text-align: center;
   background-color: green;
@@ -326,7 +329,7 @@ img.footer-avatar {
 
 img.footer-icons {
   padding: 5px;
-  width: 50px;
+  width: 30px;
   height: auto;
   filter: invert(100%);
 }
@@ -339,4 +342,48 @@ img.footer-icons:hover{
   padding: 0;
   margin: 10px 0;
   color: white;
+}
+
+.container{
+  margin: 30px;
+}
+
+.container h1{
+  color: green;
+}
+
+input[type=text]{
+  width: 31%;
+  padding: 15px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #d1d3e2;
+  box-sizing: border-box;
+  border-radius: 25px;
+}
+
+textarea{
+  width: 100%;
+  padding: 15px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #d1d3e2;
+  box-sizing: border-box;
+  border-radius: 25px;
+}
+
+button {
+  background-color: green;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px 0 #999;
+}
+
+button:hover {
+  opacity: 0.8;
 }

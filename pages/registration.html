@@ -5,32 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="../css/loginstyle.css" type="text/css">
-    <title>Login</title>
+    <title>Registration</title>
   </head>
 
   <body style = "background-image: radial-gradient(green, black);">
 
-  <form class="login-content animate" action="index.html">
-    <div class="imgcontainer">
+  <form class="login-content animate" action="login.html">
+    <!-- <div class="imgcontainer">
 
       <img src="../img/logo.png" alt="Avatar" class="avatar">
 
-    </div>
+    </div> -->
 
-    <center><h2 style="color: green">WELCOME STUDENT!</h2></center>
-
+    <center><h2 style="color: green">REGISTER</h2></center>
+    
     <div class="container">
+      <input type="text" placeholder="First Name" name="fname">
+      <input type="text" placeholder="Last Name" name="lname">
       <input type="text" placeholder="Username" name="uname">
       <input type="password" placeholder="Password" name="psw">
-      <button type="submit">Login</button>
-      <hr>  
+      <input type="password" placeholder="Confirm Password" name="cpsw">
       <label>
-        <input type="checkbox" checked="checked" name="remember"> Remember me
+        <input type="checkbox" id="termss">I accept the Terms of Use & Privacy Policy
       </label>
-      <br><br>
-      <center>
-        <a class="btn-registration" href="registration.html">Create Account</a>
-      </center>
+      <button type="submit">Register</button>
+      <hr>  
     </div>
   </form>
 
