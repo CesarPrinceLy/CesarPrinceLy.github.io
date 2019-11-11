@@ -153,31 +153,40 @@ img.avatar {
 }
 
 .slide {
+  text-align: center;
   float: left;
   height: 510px;
   width: 900px;
 }
 
 .slide:nth-child(1) {
-  background: green;
+  background: #fff;
 }
 
 .slide:nth-child(2) {
-  background: green;
+  background: #fff;
 }
 
 .slide:nth-child(3) {
-  background: green;
+  background: #fff;
 }
 
 .slide:nth-child(4) {
-  background: green;
+  background: #fff;
 }
 
 .slide-number {
   color: #000;
-  text-align: center;
+  display: inline-block;
   font-size: 3em;
+  width: 100%;
+}
+
+.events {
+  color: #000;
+  display: inline-block;
+  font-size: 3em;
+  width: 100%;
 }
 
 @-webkit-keyframes slide {
